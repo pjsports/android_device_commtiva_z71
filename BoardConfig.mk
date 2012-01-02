@@ -69,3 +69,6 @@ BOARD_USES_QCOM_GPS := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := z71
 # AMSS version to use for GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 1240
+#As temporary fix try  add to BoardConfig.mk
+WITH_JIT := false
+ENABLE_JSC_JIT := false
